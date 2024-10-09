@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/devdb
+    username: root
+    password: Madu7788?
+  jpa:
+    database: mysql
+    show_sql: true
+    hibernate:
+      ddl-auto: create-drop
+fileRepositoryFolder: C:\\Users\\dilha\\OneDrive\\Desktop\\fileUploadFolder
